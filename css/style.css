@@ -1,0 +1,28 @@
+body {
+  background-color: #e5c273;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  width: 100px;
+  height: auto;
+}
+
+progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  -webkit-appearance: none;
+}
+progress::-webkit-progress-bar {
+  background: white;
+}
+progress::-webkit-progress-value {
+  background: #324b83;
+}
